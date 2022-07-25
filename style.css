@@ -1,0 +1,114 @@
+*
+{
+  background-image: url(https://images.pexels.com/photos/544268/pexels-photo-544268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-color: white;
+  background-clip: border-box;
+      font-family: Arial, Verdana, sans-serif;
+      color: white;
+}
+
+.page
+{
+  display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+align-content: space-between;
+}
+.about
+{
+text-align: left;
+overflow-wrap: break-word;
+width: 40%;
+height: 250px;
+margin: 30px;
+}
+.table1
+{
+width: 40%;
+height: 250px;
+margin: 30px;
+}
+.table1 table, th, td 
+{
+  border: 3px solid black;
+  vertical-align: bottom;
+}
+.table1 th
+ {
+background-image: none;
+background-color: purple;
+text-align: center;
+font-size: 20px;
+color: black;
+}
+
+ul 
+{
+ font-size: 18px;
+color: white;
+}
+ol
+{
+font-size: 18px;
+color: white;
+}
+
+.exp1
+{
+     width: 250px;
+     height: 400px;
+     vertical-align: top;
+     margin-top: 20px;
+}
+
+.table2
+{
+width: 90%;
+border: 3px solid #0e0e0e;
+margin: 30px;
+justify-content: center;
+}
+.table2 th 
+{
+background-image: none;
+height: 40px;
+text-align: center;
+vertical-align: middle;
+background-color: violet;
+color: black;
+font-size: 24px;
+padding: 0px;
+border: 1px solid #0e0e0e;
+}
+.table2 td 
+{
+height: 100px;
+width: 50%;
+text-align: left;
+vertical-align: top;
+border: 3px solid #0e0e0e;
+}
+h1
+{
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+  width: 100%;
+  }
+h2
+{
+  text-align: center;
+  font-size: 24px;
+  }
+.exphead
+{
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+vertical-align: top;
+}
+  
+  
+  
